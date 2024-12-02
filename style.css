@@ -10,7 +10,7 @@ body {
 }
 
 .header-container {
-  background: rgb(105, 160, 160);
+  background: rgb(88, 179, 179);
   width: 100%;
   height: 10vh;
   display: flex;
@@ -82,7 +82,7 @@ body {
   position: relative;
   top: 25%;
   height: 129px;
-  background: rgb(187, 181, 181);
+  background: rgb(207, 205, 205);
 }
 
 .caja {
@@ -101,4 +101,9 @@ body {
   margin-left: 12em;
   position: relative;
   top: 50%;
+}
+
+.logo{
+  position: relative;
+  top: -470%;
 }
