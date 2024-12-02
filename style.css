@@ -107,3 +107,77 @@ body {
   position: relative;
   top: -470%;
 }
+
+/* Estilos generales aquí */
+
+@media (max-width: 900px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .header-list--left, .header-list--right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .left-list-item, .right-list-item {
+    margin: 5px 0;
+  }
+
+  .logo {
+    width: 100px; 
+    height: auto; 
+  }
+
+
+  .nav-container {
+    text-align: center; 
+  }
+
+  .nav-btn {
+    width: 80%; 
+    padding: 10px;
+    position: relative;
+    top: 100%;
+    left: -20%;
+    width: 300px;
+  }
+
+  .nav-banner {
+    width: 100%;
+    height: 800px;
+  }
+
+ 
+  .footer-container {
+    text-align: center;
+  }
+
+  .caja {
+    margin: 10px 0; 
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-list li {
+    margin: 5px 0;
+  }
+
+  .header-list--left{
+    position: relative;
+    top: -10%;
+  }
+
+  .header-list--right{
+    position: relative;
+    top: -40%;
+  }
+}
